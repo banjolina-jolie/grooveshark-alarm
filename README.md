@@ -1,18 +1,19 @@
- <!--Grooveshark Alarm-->
  <!DOCTYPE html>
  <html>
   <head></head>
-  <body>Directions:/n
+  <body>
 
-1.	Open Grooveshark and click a song you want to hear so that it loads into the dock but immediately press pause.\n
+  	Directions:
 
-2.	Click: View > Developer > JavaScript Console\n
+1.	Open Grooveshark and click a song you want to hear so that it loads into the dock but immediately press pause.
 
-3.	Copy the code from code.js, paste it into the console, and press enter:\n
+2.	Click: View > Developer > JavaScript Console
 
-4.	Type in time in 24 hr format and click 'Set Alarm' button.\n
+3.	Copy the code from code.js, paste it into the console, and press enter:
 
-5.	Wait... then enjoy.
+4.	Type in time in 24 hr format and click 'Set Alarm' button.
+
+5.	Wait... then enjoy."
 
 </body>
  </html>
