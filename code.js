@@ -1,3 +1,6 @@
+//Copy and paste the code below into the JavaScript console of Chrome.  press alt>command>j at the same time to pull up the console.
+
+
 $('#header-search-container').after('<input id="alarmTime" value="HH:MM:SS"/>');
 
 $('#header-search-container').after('<button id="btn1">Set Alarm</button>');
