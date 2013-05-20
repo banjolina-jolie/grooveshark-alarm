@@ -58,16 +58,20 @@ function playDelayedSong() {
 style="border-top-left-radius: 100px; border-top-right-radius: 100px; border-bottom-right-radius: 100px; border-bottom-left-radius: 100px; background-color: rgb(255, 255, 255); display: inline; padding-top: 3px; padding-bottom: 3px; margin-top: 10px; border-left-width: 2px;"
 
 $('#btn1').click(playDelayedSong);
-$('#btn1').css("border-radius","100px");
-$('#btn1').css("background-color","#FFFFFF");
-$('#btn1').css("display","inline");
-$('#btn1').css("padding-top","1px");
-$('#btn1').css("padding-bottom","1px");
-$('#btn1').css("margin-top","11px");
+$('#btn1').css({
+  "border-radius":"100px",
+  "background-color":"#FFFFFF",
+  "display":"inline",
+  "padding-top":"1px",
+  "padding-bottom":"1px",
+  "margin-top":"11px"
+});
 
-$('#alarmTime').css("width","60px");
-$('#alarmTime').css("border-radius","100px");
-$('#alarmTime').css("margin-top","10px");
-$('#alarmTime').css("padding-top","3px");
-$('#alarmTime').css("padding-bottom","1px");
-$('#alarmTime').css("margin-left","3px");
+$('#alarmTime').css({
+  "width":"60px",
+  "border-radius":"100px",
+  "margin-top":"10px",
+  "padding-top":"3px",
+  "padding-bottom":"1px",
+  "margin-left":"3px"
+});
